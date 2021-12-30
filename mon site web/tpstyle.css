@@ -1,0 +1,133 @@
+	html{
+		background: url(background.JPG);
+	margin-left: 20px;
+	margin-right:50px;
+	}
+	header{
+	        Background: url(linetwopoints.gif) white bottom 
+			left repeat-x;
+	        width: 780px;
+		margin:auto;
+	        padding: 10px;
+		margin-bottom:0px;
+	}
+		section{
+	        width: 800px;
+	        Background: white url(BackMiddle.gif) top left repeat-y;
+	        margin:auto;
+		margin-top:0px;
+		margin-bottom:0px;
+	        padding-top: 10px;
+	        padding-bottom: 10px;
+			Background: white url(Background.gif);
+	    }
+	    
+	footer{
+	        width: 780px;
+	        height: 20px;
+	        Background: url(twopoints.gif) white top left repeat-x;
+	        margin: auto;
+	        padding: 10px;
+	        text-align: center;
+            font-size: x-small;
+		}
+			h2{
+        color: darkblue;
+	    font-size: 150%;
+	    font-weight: bold ;
+		margin-left:15px;
+		margin-right:15px;
+    }
+	h3{
+	    color: darkblue;
+		font-size: 120%;
+		font-weight: bold;
+		margin-left:15px;
+		margin-right:15px;
+	    }
+	h4{
+	        color: darkblue;
+	        font-size: 90%;
+	        font-weight: bold;
+	        line-Height: 130%;
+		margin-left:15px;
+		margin-right:15px;
+    }
+		p{
+        font-size: 90%;
+	        line-Height: 130%;
+        text-align : justify;
+	        text-indent: 2em;
+		margin-left:15px;
+		margin-right:15px;
+    }
+		li{
+        list-style: url(PUCE.GIF);
+	        font-size: 90%;
+	        line-Height: 150%;
+	        margin-left:15px;
+		margin-right:15px;   
+    }
+	.imdroite{
+	    border-width: 2px;
+	    border-style: dotted;
+	    border-color: darkblue;
+	    background-color: #dbe1e0;
+	    float: right;
+	    border :dotted;
+	    color: darkblue;
+	    margin: 20px;
+	    padding: 4px;
+	    width: 200px;
+	    border-radius: 10px;
+	
+	}
+	.imgauche{
+	    border-width: 2px;
+	    border-style: dotted;
+	    border-color: darkblue;
+	    background-color: #dbe1e0;
+	    float: left;
+	    border :dotted;
+	    margin: 20px;
+	    padding: 4px;
+	    width: 200px;
+	    color: darkblue;
+	    border-radius: 10px;
+    }  
+	figcaption{
+	        font-size: 80%;
+	        margin: 0px;
+	        padding: 0px
+    }
+	p:first-letter{
+	
+
+	       font-family: fantasy;
+	        font-size: 150%;
+	        font-weight : bold;
+	        color: darkblue;
+	        
+	    }
+	a:link{
+	        color: darkblue;
+	        text-decoration: underline;	    }
+	a:visited{
+	        color:darkgreen;
+	        text-decoration: underline;
+	    }
+	a:hover{
+	        color:darkgrey;
+	        text-decoration: blink;   
+    }
+	.menu{
+width: 400px;
+float:left;
+height: 70px;
+	}
+	ul{
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}

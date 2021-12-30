@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+<title>CSS Debutant : Menu horizontal déroulant réalisé uniquement à l'aide du langage CSS</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-_" />
+<style type="text/CSS">
+#menu {
+height:50px;
+}
+#menu ul {
+margin:0;
+padding:0;
+list-style-type:none;
+text-align:center;
+}
+#menu li {
+float:left;
+margin:auto;
+padding:0;
+background-color:black;
+}
+#menu li a {
+display:block;
+width:100px;
+color:white;
+text-decoration:none;
+padding:5px;
+}
+#menu li a:hover {
+color:#FFD700;
+}
+#menu ul li ul {
+display:none;
+}
+#menu ul li:hover ul {
+display:block;
+}
+#menu li:hover ul li {
+float:none;
+}
+#menu li ul {
+position:absolute;
+}
+</style>
+
+<meta name="description" content="Exemple de menu horizontal déroulant accessible créé grâce aux CSS" />
+</head>
+<body>
+<h1>CSS : Menu horizontal déroulant</h1>
+<div id="menu">
+<ul>
+  <li><a href="#">Item 1</a></li>
+  <li><a href="#">Item 2</a>
+    <ul>
+      <li><a href="#">Sous-item 1</a></li>
+      <li><a href="#">Sous-item 2</a></li>
+      <li><a href="#">Sous-item 3</a></li>
+	 </ul>
+  </li>
+  <li><a href="#">Item 3</a></li>
+</ul>
+</div>
+<h2>Lorem Ipsum</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque vel nunc. Duis luctus facilisis dolor. Pellentesque malesuada, velit ac tempor imperdiet, nisi nisl convallis leo, eget tincidunt neque lacus vel erat. Fusce eget tortor a ante tincidunt condimentum. Pellentesque risus. Quisque auctor. Donec sagittis porta lacus. Donec varius, erat in accumsan dapibus, ligula tortor fermentum lectus, laoreet porttitor urna dui ut neque. Fusce lectus. Phasellus laoreet placerat ipsum. Aliquam pharetra, nisi et rhoncus iaculis, massa tellus consectetuer lectus, quis tincidunt est diam commodo ipsum. Aliquam erat volutpat.</p>
+
+</body>
+</html>
